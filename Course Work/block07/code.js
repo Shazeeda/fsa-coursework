@@ -8,11 +8,11 @@
 
 */
 
-
 const Message = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:"
 
 let code1 = 6+4
 let code2 = 8*5
 let code3 = 40-1
+
 
 alert(Message + "\n" + code1 + " "+ code2 + " " + code3)
