@@ -1,0 +1,28 @@
+ul {
+  list-style-type: square;
+}
+
+.ul-circle {
+  list-style-type: circle;
+}
+
+section {
+  background-color: crimson;
+  }
+
+  h2 {
+    border: solid 3px green;
+    text-align: center;
+  }
+
+  h3  {
+    border: dashed 4px orange 
+  }
+
+  h4 {
+    border: thick double 7px blue
+  }
+
+  div {
+    padding: 25px 50px 75px 100px;
+  }
