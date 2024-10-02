@@ -1,3 +1,10 @@
+.pantry-items, .freezer-items {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid;
+}
+
 ul {
   list-style-type: square;
 }
@@ -7,22 +14,27 @@ ul {
 }
 
 section {
-  background-color: crimson;
-  }
+  background-color: yellowgreen;
+}
 
-  h2 {
-    border: solid 3px green;
-    text-align: center;
-  }
+h2 {
+  border: solid 3px green;
+  text-align: center;
+  background-color: red;
+}
 
-  h3  {
-    border: dashed 4px orange 
-  }
+h3 {
+  border: dashed 4px orange;
+}
 
-  h4 {
-    border: thick double 7px blue
-  }
+h4 {
+  border: thick double 7px blue;
+}
 
-  div {
-    padding: 25px 50px 75px 100px;
-  }
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+
