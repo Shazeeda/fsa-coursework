@@ -1,0 +1,15 @@
+h2{
+  display: block; 
+  font-size: larger;
+  color: darkred;
+}
+
+#img{border-style: dashed;
+  width: 150px;
+}
+
+a {color: blueviolet;
+  font-style: italic;
+  font-size: larger;
+
+}
