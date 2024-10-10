@@ -22,6 +22,7 @@ h2 {
   color: rgb(112, 8, 153);
   font-style: oblique;
   text-align: center;
+  font-size: xx-large;
 }
 
 .quote {
@@ -33,14 +34,22 @@ h1 {
   font-size: x-large;
 }
 
-.home {color: black;
+.home {
+  color: black;
   font-style: normal;
 }
 
-.about {color: black;
+.about {
+  color: black;
   font-style: normal;
 }
 
-.portfolio {color: black;
-  font-style: normal
-  ;}
+.portfolio {
+  color: black;
+  font-style: normal;
+  float: right;
+}
+
+body { 
+  background-color: bisque;
+}
