@@ -1,0 +1,29 @@
+.giraffeagain {
+justify-content: left;
+width: 500px;
+height: 250px;
+position: absolute;
+left: 0px;
+top: 0px;
+z-index: -1;
+
+}
+
+
+.giraffecute {
+  justify-content: left;
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+
+
+@media screen and (min-width:1024px) {
+  body {
+    background-color: blue;
+    font-size: xx-large;
+  }
+  
+}
