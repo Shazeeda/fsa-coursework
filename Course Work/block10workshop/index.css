@@ -1,4 +1,4 @@
-.giraffeagain {
+/* .giraffeagain {
 justify-content: left;
 width: 500px;
 height: 250px;
@@ -19,6 +19,24 @@ z-index: -1;
 }
 
 
+.giraffecute{
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+.giraffeagain{
+  border: 2px solid #ccc;
+}
+
+
+@media (min-width: 768px) {
+  .gallery-container {
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+  }
+}
+
+
 
 @media screen and (min-width:1024px) {
   body {
@@ -26,4 +44,138 @@ z-index: -1;
     font-size: xx-large;
   }
   
+} */
+
+
+
+
+
+header {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 10;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1rem auto;
+  max-width: 90%;
+}
+
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.giraffeagain {
+  background: #ddd;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+}
+
+.giraffcute {
+  background: #ddd;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+}
+
+
+
+.form-section {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sign-up-form label {
+  font-weight: bold;
+}
+
+.sign-up-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sign-up-form button {
+  padding: 0.7rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-up-form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .gallery-container {
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .art-piece {
+    height: 300px;
+  }
+}
+
+
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  position: relative;
+  z-index: 1;
 }
