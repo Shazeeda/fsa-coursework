@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <p>Please fill out the form below if you are interested in purchasing a digital copy:</p>
@@ -27,8 +27,55 @@
   <img class="giraffecute" src="images/giraffecute.jpg"/>
 </div>
 
+<div>
+ class= gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1rem auto;
+    max-width: 90%;
+</div>
+
 
   <input type="submit" value="Submit">
 
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="gallery-container">
+        <div class="gallery-grid">
+          <div class="giraffeagain">Gallery Item 1</div>
+          <div class="giraffcute">Gallery Item 2</div>
+          <div class="giraffeagain">Gallery Item 3</div>
+          <div class="giraffcute">Gallery Item 4</div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <h2>Sign Up</h2>
+        <form class="sign-up-form" action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <button type="submit">Sign Up</button>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
